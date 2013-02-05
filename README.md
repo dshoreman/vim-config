@@ -8,7 +8,9 @@ cd ~ && mv .vimrc .vimrc.bak && git clone git://github.com/dshoreman/vim-config.
 ```
 
 If you'd rather do it manually...
+
 1. Move your existing .vimrc somewhere safe
 2. Clone this repo to /home/youruser/.vim (or some other directory)
 3. Create a new .vimrc with the following line to include the one from the repo
+
     source /path/you/cloned/this/repo/.to
